@@ -1,0 +1,93 @@
+pipe:
+  path_root: "payload"
+  transform:
+    strip:
+      - "id"
+      - "contributor"
+      - "coverage"
+      - "creator"
+      - "date"
+      - "description"
+      - "format"
+      - "identifier"
+      - "language"
+      - "publisher"
+      - "relation"
+      - "rights"
+      - "source"
+      - "subject"
+      - "title"
+      - "type"
+      - "url"
+    lowercase:
+      - "contributor"
+      - "creator"
+      - "format"
+      - "language"
+      - "subject"
+      - "type"
+      - "url"
+    split:
+      subject:
+        - "|"
+      creator:
+        - "|"
+    capitalize:
+      - "creator"
+    add_hash:
+      - target: "fingerprint"
+        method: "md5"
+        fields:
+          id: null
+          museu: null
+      - target: "hash-content"
+        method: "md5"
+        fields:
+          "id": null
+          "contributor": null
+          "coverage": null
+          "creator": null
+          "date": null
+          "description": null
+          "format": null
+          "identifier": null
+          "language": null
+          "publisher": null
+          "relation": null
+          "rights": null
+          "source": null
+          "subject": null
+          "title": null
+          "type": null
+          "url": null
+  target_collection:
+    connection_name: "https://midiateca.tainacan.org"
+    collection_id: "5"
+    metadata_identifier: "60" # metadado no agregador que guarda o identificador unico dos itens no processe de agregação
+    metadata_hash_content: "4991391"
+    ignore_items_without_identifier: true # ignorar o item caso não tenha o metadado identificador
+    metadata:
+      "8" : "coverage"
+      "14": "title"
+      "16": "description"
+      "21": "identifier"
+      "25": "publisher"
+      "27": "relation"
+      "29": "rights"
+      "31": "source"
+      "52": "museu"
+      "56": "colecao"
+      "60": "fingerprint"
+      "63": "url"
+      "69": "uf"
+      "73": "id"
+      "91": "type"
+      "97" : "contributor"
+      "103": "creator"
+      "109": "date"
+      "116": "format"
+      "122": "language"
+      "128": "subject"
+      "138": "cidade"
+      "_thumbnail": "thumbnail"
+      "_document": "document"

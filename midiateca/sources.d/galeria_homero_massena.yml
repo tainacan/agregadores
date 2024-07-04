@@ -1,0 +1,51 @@
+idsource: galeria_homero_massena
+url: http://midiateca.es.gov.br/galeriahomeromassena/wp-json/tainacan/v2/collection/2010/items/
+url_parameters:
+  order: DESC
+  orderby: date
+  exposer: json-flat
+  mapper: dublin-core
+pagination:
+  request:
+    pagesize: 50
+    field_pagesize: perpage
+    field_page: paged
+  response:
+    path_to_next_page: pagination.next_page
+    path_to_items: items
+
+transform:
+  rename:
+    fields:
+      - { from: "id", to: "payload.id", use_as_id: true }
+      - {
+          from: "data.dc:contributor.value",
+          to: "payload.contributor",
+        }
+      - { from: "data.dc:coverage.value", to: "payload.coverage" }
+      - { from: "data.dc:creator.value", to: "payload.creator" }
+      - { from: "data.dc:date.value", to: "payload.date" }
+      - {
+          from: "data.dc:description.value",
+          to: "payload.description",
+        }
+      - { from: "data.dc:format.value", to: "payload.format" }
+      - { from: "data.dc:identifier.value", to: "payload.identifier" }
+      - { from: "data.dc:language.value", to: "payload.language" }
+      - { from: "data.dc:publisher.value", to: "payload.publisher" }
+      - { from: "data.dc:relation.value", to: "payload.relation" }
+      - { from: "data.dc:rights.value", to: "payload.rights" }
+      - { from: "data.dc:source.value", to: "payload.source" }
+      - { from: "data.dc:subject.value", to: "payload.subject" }
+      - { from: "data.dc:title.value", to: "payload.title" }
+      - { from: "data.dc:type.value", to: "payload.type" }
+      - { from: "url", to: "payload.url" }
+      - { from: "thumbnail", to: "payload.thumbnail" }
+      - { from: "document", to: "payload.document" }
+  add_fields:
+    target: payload
+    fields:
+      museu: "Galeria Homero Massena"
+      colecao: "Acervo Digital da Galeria Homero Massena"
+      cidade: "Vitória"
+      uf: "ES"
