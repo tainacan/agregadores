@@ -61,7 +61,7 @@ pipe:
           "type": null
           "url": null
   target_collection:
-    connection_name: "https://midiateca.tainacan.org"
+    connection_name: "midiateca.tainacan.org"
     collection_id: "5"
     metadata_identifier: "60" # metadado no agregador que guarda o identificador unico dos itens no processe de agregação
     metadata_hash_content: "4991391"
