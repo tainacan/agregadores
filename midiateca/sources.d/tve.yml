@@ -1,6 +1,6 @@
 
 idsource: museu_colono
-url: https://midiateca.es.gov.br/museucolono/wp-json/tainacan/v2/collection/732/items/
+url: https://midiateca.es.gov.br/tve/wp-json/tainacan/v2/collection/39/items/
 url_parameters:
   order: DESC
   orderby: date
@@ -46,7 +46,7 @@ transform:
   add_fields:
     target: payload
     fields:
-      museu: "Museu do Colono"
-      colecao: "Acervo museológico do Museu do Colono"
-      cidade: "Santa Leopoldina"
+      museu: "Rádio e Televisão do Espírito Santo"
+      colecao: "Repositório Digital da Rádio e TV do Estado do Espírito Santo"
+      cidade: "Vitória"
       uf: "ES"
