@@ -42,8 +42,8 @@ pipe:
   target_collection:
     connection_name: "treinamento.local"
     collection_id: "6"
-    metadata_identifier: "35" # metadado no agregador que guarda o identificador unico dos itens no processo de agregação
-    metadata_hash_content: "4991391" #metadado no agregador que guarda o hash do conteudo dos itens no processo de agregação 
+    metadata_identifier: "58" # metadado no agregador que guarda o identificador unico dos itens no processo de agregação
+    metadata_hash_content: "55" #metadado no agregador que guarda o hash do conteudo dos itens no processo de agregação 
     ignore_items_without_identifier: true # ignorar o item caso não tenha o metadado identificador 
     metadata:
       "19": "id"
