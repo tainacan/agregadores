@@ -64,7 +64,7 @@ pipe:
     connection_name: "midiateca.tainacan.org"
     collection_id: "5"
     metadata_identifier: "60" # metadado no agregador que guarda o identificador unico dos itens no processe de agregação
-    metadata_hash_content: "4991391"
+    metadata_hash_content: "4829963"
     ignore_items_without_identifier: true # ignorar o item caso não tenha o metadado identificador
     metadata:
       "8" : "coverage"
