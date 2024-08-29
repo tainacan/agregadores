@@ -13,8 +13,3 @@ configs:
       - "https://raw.githubusercontent.com/tainacan/agregadores/main/midiateca/sources.d/museu_artes.yml"
       - "https://raw.githubusercontent.com/tainacan/agregadores/main/midiateca/sources.d/museu_colono.yml"
       - "https://raw.githubusercontent.com/tainacan/agregadores/main/midiateca/sources.d/tve.yml"
-  - name: "treinamento"
-    file: https://raw.githubusercontent.com/tainacan/agregadores/main/treinamento/config.yml
-    inputs: 
-      - "https://raw.githubusercontent.com/tainacan/agregadores/main/treinamento/sources.d/Abolicao.yml"
-      - "https://raw.githubusercontent.com/tainacan/agregadores/main/treinamento/sources.d/Missoes.yml"
