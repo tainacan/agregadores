@@ -1,0 +1,32 @@
+idsource: teste_01
+url: https://rcteste.tainacan.org/wp-json/tainacan/v2/collection/86431/items/
+url_parameters:
+  order: DESC
+  orderby: date
+  exposer: json-flat
+pagination:
+  request:
+    pagesize: 50
+    field_pagesize: perpage
+    field_page: paged
+  response:
+    path_to_next_page: pagination.next_page
+    path_to_items: items
+
+transform:
+  rename:
+    fields:
+      - { from: "id", to: "payload.id", use_as_id: true }
+      - { from: "data.titulo-51.value", to: "payload.titulo" }
+      - { from: "data.numero-registro-3.value", to: "payload.numero-registro" }
+      - { from: "data.descricao-41.value", to: "payload.local-producao" }
+      - { from: "url", to: "payload.url" }
+      - { from: "thumbnail", to: "payload.thumbnail" }
+      - { from: "document", to: "payload.document" }
+  add_fields:
+    target: payload
+    fields:
+      museu: "RC teste"
+      colecao: "Teste"
+      cidade: "Brasilia"
+      uf: "DF"
