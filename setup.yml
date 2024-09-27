@@ -4,6 +4,7 @@ configs:
     inputs: 
       - "https://raw.githubusercontent.com/tainacan/agregadores/main/brasiliana/sources.d/Abolicao.yml"
       - "https://raw.githubusercontent.com/tainacan/agregadores/main/brasiliana/sources.d/Missoes.yml"
+      - "https://raw.githubusercontent.com/tainacan/agregadores/refs/heads/main/brasiliana/sources.d/Teste.yml"
   - name: "midiateca"
     file: "https://raw.githubusercontent.com/tainacan/agregadores/main/midiateca/config.yml"
     inputs: 
