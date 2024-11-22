@@ -32,3 +32,6 @@ configs:
       - "https://raw.githubusercontent.com/tainacan/agregadores/main/midiateca/sources.d/museu_artes.yml"
       - "https://raw.githubusercontent.com/tainacan/agregadores/main/midiateca/sources.d/museu_colono.yml"
       - "https://raw.githubusercontent.com/tainacan/agregadores/main/midiateca/sources.d/tve.yml"
+
+## Notas
+Descrever como utilizar esse arquivo no AirFlow.

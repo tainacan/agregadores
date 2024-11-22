@@ -5,3 +5,4 @@ configs:
       - "https://raw.githubusercontent.com/tainacan/agregadores/main/treinamento/sources.d/abolicao.yml"
       - "https://raw.githubusercontent.com/tainacan/agregadores/main/treinamento/sources.d/missoes.yml"
       - "https://raw.githubusercontent.com/tainacan/agregadores/main/treinamento/sources.d/teste.yml"
+
