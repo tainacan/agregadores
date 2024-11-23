@@ -1,5 +1,6 @@
 idsource: museudeartereligiosaetradicional_01
 url: https://museudeartereligiosaetradicional.acervos.museus.gov.br/wp-json/tainacan/v2/collection/878/items/
+disabled: true
 url_parameters:
   order: DESC
   orderby: date

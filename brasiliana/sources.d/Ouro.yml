@@ -1,5 +1,6 @@
 idsource: museudoouro_01
 url: https://museudoouro.acervos.museus.gov.br/wp-json/tainacan/v2/collection/3583/items/
+disabled: true
 url_parameters:
   order: DESC
   orderby: date

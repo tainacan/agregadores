@@ -1,5 +1,6 @@
 idsource: museudainconfidencia_01
 url: http://museudainconfidencia.acervos.museus.gov.br/wp-json/tainacan/v2/collection/9/items/
+disabled: true
 url_parameters:
   order: DESC
   orderby: date

@@ -1,5 +1,6 @@
 idsource: museudodiamante_01
 url: http://museudodiamante.acervos.museus.gov.br/wp-json/tainacan/v2/collection/11603/items/
+disabled: true
 url_parameters:
   order: DESC
   orderby: date
