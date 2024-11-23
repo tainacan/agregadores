@@ -1,6 +1,6 @@
 idsource: roteiros_01
 url: https://acervos.musecom.rs.gov.br/wp-json/tainacan/v2/collection/128969/items/
-disabled: true
+disabled: false
 url_parameters:
   order: DESC
   orderby: date
