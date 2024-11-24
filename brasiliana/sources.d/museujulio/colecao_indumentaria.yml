@@ -1,6 +1,6 @@
 idsource: museujulio_colecao_indumentaria_01
 url: https://acervos.museujulio.rs.gov.br/wp-json/tainacan/v2/collection/11413/items/
-disabled: true
+disabled: false
 url_parameters:
   order: DESC
   orderby: date

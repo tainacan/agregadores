@@ -1,6 +1,6 @@
 idsource: museujulio_pesquisa_01
 url: https://acervos.museujulio.rs.gov.br/wp-json/tainacan/v2/collection/308/items/
-disabled: true
+disabled: false
 url_parameters:
   order: DESC
   orderby: date
