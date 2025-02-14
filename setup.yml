@@ -57,4 +57,4 @@ configs:
   - name: "teste"
     file: "https://raw.githubusercontent.com/tainacan/agregadores/main/teste/config.yml"
     inputs: 
-      - ""
+      - "https://raw.githubusercontent.com/tainacan/agregadores/refs/heads/main/teste/source/MAI.yml"
