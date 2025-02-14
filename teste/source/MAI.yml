@@ -1,6 +1,6 @@
-idsource: mabolicao_01
-url: https://museudaabolicao.acervos.museus.gov.br/wp-json/tainacan/v2/collection/7/items/
-disabled: true
+idsource: museudearqueologiadeitaipu_01
+url: http://museudearqueologiadeitaipu.museus.gov.br/wp-json/tainacan/v2/collection/94553/items/
+disabled: false
 url_parameters:
   order: DESC
   orderby: date
@@ -70,7 +70,7 @@ transform:
   add_fields:
     target: payload
     fields:
-      museu: "Museu da Abolição"
-      colecao: "Acervo Museológico"
-      cidade: "Recife"
-      uf: "PE"
+      museu: "Museu de Arqueologia de Itaipu"
+      colecao: "Acervo MAI"
+      cidade: "Niterói"
+      uf: "RJ"
