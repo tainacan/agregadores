@@ -1,6 +1,6 @@
 idsource: museuregionaldesaojoaodelrei_01
 url: https://museuregionaldesaojoaodelrei.acervos.museus.gov.br/wp-json/tainacan/v2/collection/11451/items/
-disabled: true
+disabled: false
 url_parameters:
   order: DESC
   orderby: date

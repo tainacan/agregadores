@@ -1,6 +1,6 @@
 idsource: museusolarmonjardim_01
 url: https://museusolarmonjardim.acervos.museus.gov.br/wp-json/tainacan/v2/collection/109360/items/
-disabled: true
+disabled: false
 url_parameters:
   order: DESC
   orderby: date

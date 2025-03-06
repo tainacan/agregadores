@@ -1,6 +1,6 @@
 idsource: museusibramgoias_casa_princesa_01
 url: http://museusibramgoias.acervos.museus.gov.br/wp-json/tainacan/v2/collection/1227/items/
-disabled: true
+disabled: false
 url_parameters:
   order: DESC
   orderby: date
