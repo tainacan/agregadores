@@ -1,6 +1,6 @@
 idsource: museusibramgoias_bandeiras_01
 url: http://museusibramgoias.acervos.museus.gov.br/wp-json/tainacan/v2/collection/1093/items/
-disabled: false
+disabled: true
 url_parameters:
   order: DESC
   orderby: date

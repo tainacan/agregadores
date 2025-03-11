@@ -1,6 +1,6 @@
 idsource: mhn_03
 url: https://mhn.acervos.museus.gov.br/wp-json/tainacan/v2/collection/627609/items/
-disabled: false
+disabled: true
 url_parameters:
   order: DESC
   orderby: date

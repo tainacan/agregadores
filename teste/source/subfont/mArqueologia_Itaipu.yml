@@ -1,6 +1,6 @@
 idsource: museudearqueologiadeitaipu_01
 url: http://museudearqueologiadeitaipu.museus.gov.br/wp-json/tainacan/v2/collection/94553/items/
-disabled: false
+disabled: true
 url_parameters:
   order: DESC
   orderby: date
