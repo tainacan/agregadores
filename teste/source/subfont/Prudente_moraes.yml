@@ -1,0 +1,49 @@
+idsource: PruMoraes
+url: https://apiacervo.sophia.com.br/brasiliana/8958/itens
+disabled: False
+url_parameters:
+  order: DESC
+  orderby: date
+  exposer: json-flat
+  mapper: inbcm-ibram
+pagination:
+  request:
+    pagesize: 50
+    field_pagesize: perpage
+    field_page: paged
+  response:
+    path_to_next_page: pagination.next_page
+    path_to_items: items
+  
+transform:
+  rename:
+    fields:
+      - { from: "id", to: "payload.id", use_as_id: true }
+      - { from: "data.title.value", to: "payload.titulo" }
+      - { from: "data.numero-de-registro.value", to: "payload.numero-registro" }
+      - { from: "data.local-de-producao.value", to: "payload.local-producao" }
+      - { from: "data.outros-numeros.value", to: "payload.outros-numeros" }
+      - { from: "data.denominacao.value", to: "payload.denominacao" }
+      - { from: "data.autor.value", to: "payload.autor" }
+      - { from: "data.classificacao.value", to: "payload.classificacao" }
+      - {
+          from: "data.description.value",
+          to: "payload.resumo-descritivo",
+        }
+      - { from: "data.dimensoes.value", to: "payload.dimensoes" }
+      - { from: "data.material-tecnica-2.value", to: "payload.material-tecnica" }
+      - {
+          from: "data.estado-de-convervacao.value",
+          to: "payload.estado-conservacao",
+        }
+      - { from: "data.data-de-producao.value", to: "payload.data-producao" }
+      - { from: "url", to: "payload.url" }
+      - { from: "thumbnail", to: "payload.thumbnail" }
+      - { from: "document", to: "payload.document" }
+  add_fields:
+    target: payload
+    fields:
+      museu: "Museu Prudente de Moraes"
+      colecao: "Museu Prudente de Moraes"
+      cidade: "Piracicaba"
+      uf: "SP"
