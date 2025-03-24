@@ -1,6 +1,6 @@
 idsource: museuvillalobos_05
 url: https://museuvillalobos.acervos.museus.gov.br/wp-json/tainacan/v2/collection/20915/items/
-disabled: true
+disabled: false
 url_parameters:
   order: DESC
   orderby: date
