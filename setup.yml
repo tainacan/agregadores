@@ -59,9 +59,5 @@ configs:
     inputs: 
       - "https://raw.githubusercontent.com/tainacan/agregadores/refs/heads/main/teste/source/subfont/mvillalobos_01.yml"
       - "https://raw.githubusercontent.com/tainacan/agregadores/refs/heads/main/teste/source/subfont/mvillalobos_02.yml"
-      - "https://raw.githubusercontent.com/tainacan/agregadores/refs/heads/main/teste/source/subfont/mvillalobos_03.yml"
-      - "https://raw.githubusercontent.com/tainacan/agregadores/refs/heads/main/teste/source/subfont/mvillalobos_04.yml"
-      - "https://raw.githubusercontent.com/tainacan/agregadores/refs/heads/main/teste/source/subfont/mvillalobos_05.yml"
-      - "https://raw.githubusercontent.com/tainacan/agregadores/refs/heads/main/teste/source/subfont/mvillalobos_06.yml"
   
      
