@@ -57,7 +57,7 @@ configs:
   - name: "teste"
     file: "https://raw.githubusercontent.com/tainacan/agregadores/main/teste/config.yml"
     inputs: 
-      - "https://raw.githubusercontent.com/tainacan/agregadores/refs/heads/main/teste/source/subfont/mvillalobos_01.yml"
-      - "https://raw.githubusercontent.com/tainacan/agregadores/refs/heads/main/teste/source/subfont/mvillalobos_02.yml"
+      - "https://raw.githubusercontent.com/tainacan/agregadores/refs/heads/main/teste/source/subfont/mMissoes.yml"
+      - "https://raw.githubusercontent.com/tainacan/agregadores/refs/heads/main/teste/source/subfont/mouro_01.yml"
   
      
