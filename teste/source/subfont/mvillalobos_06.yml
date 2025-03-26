@@ -47,6 +47,6 @@ transform:
     target: payload
     fields:
       museu: "Museu Villa Lobos"
-      colecao: "Fotografias "
+      colecao: "Fotografias"
       cidade: "Rio de Janeiro"
       uf: "RJ"
