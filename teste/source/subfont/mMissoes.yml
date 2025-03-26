@@ -8,7 +8,7 @@ url_parameters:
   mapper: inbcm-ibram
 pagination:
   request:
-    pagesize: 50
+    pagesize: 96
     field_pagesize: perpage
     field_page: paged
   response:
