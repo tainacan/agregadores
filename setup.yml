@@ -62,6 +62,5 @@ configs:
    - name: "brasiliana_teste2"
     file: "https://raw.githubusercontent.com/tainacan/agregadores/refs/heads/main/brasiliana_teste2/config.yml"
     inputs: 
-      - "https://raw.githubusercontent.com/tainacan/agregadores/refs/heads/main/teste/source/subfont/mvillalobos_02.yml"
-      - "https://raw.githubusercontent.com/tainacan/agregadores/refs/heads/main/teste/source/subfont/mvillalobos_03.yml"
+      - 
 
