@@ -1,6 +1,6 @@
 idsource: mmissoes_01
 url: http://museudasmissoes.acervos.museus.gov.br/wp-json/tainacan/v2/collection/6409/items/
-disabled: false
+disabled: true
 url_parameters:
   order: DESC
   orderby: date
