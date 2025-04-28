@@ -1,6 +1,6 @@
 idsource: PruMoraes
 url: https://apiacervo.sophia.com.br/brasiliana/8958/itens
-disabled: true
+disabled: False
 url_parameters:
   order: DESC
   orderby: date
