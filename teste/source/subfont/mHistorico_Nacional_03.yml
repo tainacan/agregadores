@@ -1,5 +1,5 @@
 idsource: mhn_03
-url: https://mhn.acervos.museus.gov.br/wp-json/tainacan/v2/collection/627609/items/
+url: https://mhn.acervos.museus.gov.br/wp-json/tainacan/v2/collection/50477/items/
 disabled: true
 url_parameters:
   order: DESC
@@ -71,6 +71,6 @@ transform:
     target: payload
     fields:
       museu: "Museu Histórico Nacional"
-      colecao: "Acervo Museológico"
+      colecao: "Moedas de Ouro"
       cidade: "Rio de Janeiro"
       uf: "RJ"
