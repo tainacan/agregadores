@@ -1,5 +1,5 @@
 idsource: mhn_01
-url: http://mhn.acervos.museus.gov.br/wp-json/tainacan/v2/collection/24/items/
+url: https://mhn.acervos.museus.gov.br/wp-json/tainacan/v2/collection/175/items/
 disabled: true
 url_parameters:
   order: DESC
