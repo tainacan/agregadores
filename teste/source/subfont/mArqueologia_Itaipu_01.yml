@@ -71,6 +71,6 @@ transform:
     target: payload
     fields:
       museu: "Museu de Arqueologia de Itaipu"
-      colecao: "Acervo MAI"
+      colecao: "Acervo Museológico"
       cidade: "Niterói"
       uf: "RJ"
