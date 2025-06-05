@@ -1,6 +1,6 @@
 idsource: museucasabenjaminconstant_01
 url: https://museucasabenjaminconstant.acervos.museus.gov.br/wp-json/tainacan/v2/collection/5347/items/
-disabled: true
+disabled: False
 url_parameters:
   order: DESC
   orderby: date
