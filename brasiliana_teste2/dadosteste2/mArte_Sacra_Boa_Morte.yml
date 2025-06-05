@@ -1,6 +1,6 @@
 idsource: museusibramgoias_boa_morte_01
 url: http://museusibramgoias.acervos.museus.gov.br/wp-json/tainacan/v2/collection/3387/items/
-disabled: true
+disabled: False
 url_parameters:
   order: DESC
   orderby: date
