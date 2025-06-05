@@ -1,5 +1,6 @@
 idsource: museucasahera_02
 url: https://museucasadahera.acervos.museus.gov.br/wp-json/tainacan/v2/collection/7/items/
+disabled: False
 url_parameters:
   order: DESC
   orderby: date
