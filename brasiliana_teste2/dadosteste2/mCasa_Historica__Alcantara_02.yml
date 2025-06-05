@@ -1,6 +1,6 @@
 idsource: museucasahistoricadealcantara_02
 url: https://museudealcantara.acervos.museus.gov.br/wp-json/tainacan/v2/collection/86154/items/
-disabled: true
+disabled: False
 url_parameters:
   order: DESC
   orderby: date
