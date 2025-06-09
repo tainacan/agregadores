@@ -1,5 +1,6 @@
 idsource: mjulio_05
 url: https://acervos.museujulio.rs.gov.br/wp-json/tainacan/v2/collection/33783/items/
+disabled: False
 url_parameters:
   order: DESC
   orderby: date
