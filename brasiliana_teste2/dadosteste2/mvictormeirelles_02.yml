@@ -1,6 +1,6 @@
 idsource: museuvictormeirelles_02
 url: https://museuvictormeirelles.acervos.museus.gov.br/wp-json/tainacan/v2/collection/38430/items/
-disabled: true
+disabled: False
 url_parameters:
   order: DESC
   orderby: date
