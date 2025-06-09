@@ -1,6 +1,6 @@
 idsource: mouro_02
 url: https://museudoouro.acervos.museus.gov.br/wp-json/tainacan/v2/collection/21929/items/
-disabled: true
+disabled: False
 url_parameters:
   order: DESC
   orderby: date
