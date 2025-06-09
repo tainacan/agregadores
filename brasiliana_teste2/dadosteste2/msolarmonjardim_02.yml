@@ -1,5 +1,5 @@
-idsource: museusolarmonjardim_01
-url: https://museusolarmonjardim.acervos.museus.gov.br/wp-json/tainacan/v2/collection/109360/items/
+idsource: museusolarmonjardim_02
+url: https://museusolarmonjardim.acervos.museus.gov.br/wp-json/tainacan/v2/collection/31273/items
 disabled: False
 url_parameters:
   order: DESC
@@ -71,6 +71,6 @@ transform:
     target: payload
     fields:
       museu: "Museu Solar Monjardim"
-      colecao: "Acervo Museológico"
+      colecao: "Acervo Arquivístico"
       cidade: "Vitória"
       uf: "ES"
